@@ -1,94 +1,90 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Student Grades Table</title>
-     <style>
-         body {
-             font-family: Arial, sans-serif;
-             background-color: #f4f4f4;
-             margin: 0;
-             padding: 20px;
-         }
-         table {
-             width: 80%; /* Adjust as needed */
-             border-collapse: collapse;
-             margin: 20px auto; /* Center the table */
-             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-             background-color: white;
-         }
-         th, td {
-             padding: 12px 15px;
-             text-align: left;
-             border-bottom: 1px solid #ddd;
-         }
-         th {
-             background-color: #343a40; /* Dark header */
-             color: white;
-             text-transform: uppercase;
-         }
-         tbody tr:hover {
-             background-color: #f5f5f5;
-         }
-         /* Conditional formatting for grades */
-         .pass {
-             color: green;
-         }
-         .fail {
-             color: red;
-         }
-     </style>
- </head>
- <body>
-     <h2>Student Grades</h2>
-     <table>
-         <thead>
-             <tr>
-                 <th>Student ID</th>
-                 <th>Name</th>
-                 <th>Subject</th>
-                 <th>Grade</th>
-             </tr>
-         </thead>
-         <tbody>
-             <tr>
-                 <td>101</td>
-                 <td>Adrian Baloloy</td>
-                 <td>Math</td>
-                 <td class="pass">82</td>
-             </tr>
-             <tr>
-                 <td>102</td>
-                 <td>Eric Banua</td>
-                 <td>Math</td>
-                 <td class="pass">92</td>
-             </tr>
-             <tr>
-                 <td>101</td>
-                 <td>Zane Ygbuhay</td>
-                 <td>Science</td>
-                 <td class="pass">88</td>
-             </tr>
-             <tr>
-                 <td>102</td>
-                 <td>Roland Balla</td>
-                 <td>Science</td>
-                 <td class="pass">75</td>
-             </tr>
-             <tr>
-                 <td>103</td>
-                 <td> Raven Belmonte</td>
-                 <td>Math</td>
-                 <td class="pass">95</td>
-             </tr>
-             <tr>
-                 <td>103</td>
-                 <td>Jansen Aquino</td>
-                 <td>Science</td>
-                 <td class="pass">83</td>
-             </tr>
-         </tbody>
-     </table>
- </body>
- </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Level Table</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            padding: 40px;
+            background: #fafafa;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #222;
+        }
+
+        table {
+            width: 85%;
+            margin: auto;
+            border-collapse: collapse;
+            background: #fff;
+        }
+
+        th {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 14px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            font-size: 17px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        tr:hover {
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Student Profile Records</h2>
+
+<table>
+    <tr>
+        <th>Student Name</th>
+        <th>Program</th>
+        <th>Year Level</th>
+        <th>Status</th>
+    </tr>
+
+    <tr>
+        <td>Leandro Espayos</td>
+        <td>BS Information Technology</td>
+        <td>3rd Year</td>
+        <td>Regular</td>
+    </tr>
+
+    <tr>
+        <td>Adrian baloloy</td>
+        <td>BS Business Administration</td>
+        <td>2nd Year</td>
+        <td>Irregular</td>
+    </tr>
+
+    <tr>
+        <td>Erick Balila</td>
+        <td>BS Computer Science</td>
+        <td>4th Year</td>
+        <td>Regular</td>
+    </tr>
+
+    <tr>
+        <td>Roland Balla</td>
+        <td>BS Psychology</td>
+        <td>1st Year</td>
+        <td>Regular</td>
+    </tr>
+</table>
+
+</body>
+</html>
